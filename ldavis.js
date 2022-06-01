@@ -27,7 +27,7 @@ LDAvis = function(to_select, json_file) {
     lamData, // all terms that are among the top-R most relevant for all topics, lambda values
     lambda = {
         old: 1,
-        current: 1
+        current: 0.5
     },
     color1 = "#1f77b4", // baseline color for default topic circles and overall term frequencies
     color2 = "#d62728"; // 'highlight' color for selected topics and term-topic frequencies
